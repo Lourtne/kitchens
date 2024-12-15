@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Medium.eot');
+    src: url('../fonts/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../fonts/Manrope-Medium.woff') format('woff'),
+        url('../fonts/Manrope-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Bold.eot');
+    src: url('../fonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../fonts/Manrope-Bold.woff') format('woff'),
+        url('../fonts/Manrope-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-ExtraBold.eot');
+    src: url('../fonts/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Manrope-ExtraBold.woff') format('woff'),
+        url('../fonts/Manrope-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-Regular.eot');
+    src: url('../fonts/RedHatDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RedHatDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/RedHatDisplay-Regular.woff') format('woff'),
+        url('../fonts/RedHatDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$primary-font: 'Red Hat Display', sans-serif;
+$secondary-font: 'Manrope', sans-serif;
+$base-font-size: 16px;
+
+.fw100 {
+    font-weight: 100;
+}
+
+.w200 {
+    font-weight: 200;
+}
+
+.w300 {
+    font-weight: 300;
+}
+
+.w400 {
+    font-weight: 400;
+}
+
+.w500 {
+    font-weight: 500;
+}
+
+.w600 {
+    font-weight: 600;
+}
+
+.w700 {
+    font-weight: 700;
+}
+
+.w800 {
+    font-weight: 800;
+}
+
+.w900 {
+    font-weight: 900;
+}
+
+.w1000 {
+    font-weight: 1000;
+}

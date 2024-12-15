@@ -1,0 +1,19 @@
+@use '../variables/fonts' as *;
+@use '../variables/colors' as *;
+
+.header {
+
+    &__wrapper {
+        display: flex;
+        padding: 0px 30px;
+        background-color: $white;
+    }
+
+    &__logo {
+        background-image: url(../images/logo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 246px;
+        height: 61px;
+    }
+}
